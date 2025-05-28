@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>College Science And Technology</title>
+ <link rel="icon" type="image/x-icon" href="image/icon.jpg">
+ <style>
+ body{
+  background-color:white;
+ }
+ ul{
+ list-style-type: none;
+ margin:0;
+ padding: 0;
+ overflow: hidden;
+ background-color:darkblue;
+ }
+ li{
+  float:left;
+ }
+ li a, .dropbth {
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+ }
+ li a:hover, .dropdown:hover .dropbth{
+  background-color:#28b463;
+ }
+ li.dropdown{
+  display: inline-block;
+ }
+ .dropdown-center{
+  position:absolute;
+  background-color:white;
+  display:none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+ }
+ .dropdown-center a{
+  color:black;
+  padding:12px 16px;
+  text-decoration:none;
+  display: block;
+  text-align: left;
+ }
+ .dropdown-center a:hover{
+  background-color:#f1f1f1;
+ }
+ .dropdown:hover .dropdown-center{
+  display:block;
+ }
+ div.gallery{
+  border:2px solid gold;
+ }
+ div.gallery:hover{
+  border:2px solid gold;
+ }
+ div.gallery img{
+  width:100%;
+  height:auto;
+ }
+ div.desc{
+  padding:10px;
+  text-align:center;
+ }
+ *{
+  box-sizing:border-box;
+ }
+ .responsive{
+  padding:0 6px;
+  float:left;
+  width:24.99999%;
+ }
+ @media only screen and (max-width: 700px){
+  .responsive{
+  width:49.99999%;
+  margin:6px 0;
+  }
+ }
+ @media only screen and (max-width: 500px){
+  .responsive{
+  width:100%;  
+  }
+ }
+ .clearfix:after{
+  content:"";
+  display:table;
+  clear:both;
+ }
+ </style>
+</head>
+<div>
+  <marquee behavior="slide" direction="left" scrollamount="10">
+  <img src="image/banner.jpg" alt="image" style="width:100%;">
+  </marquee>
+</div>
+<body>
+ <ul>
+  <li><a href="projectfinal.html">Home</a></li>
+  <li><a href="news.html" target="_blank" >News</a></li>
+  <li><a href="Facultymembers.html" target="_blank" >Faculty Members</a></li>
+  <li><a href="training.html" target="_blank" >Professional Training</a></li>
+  <li><a href="videos.html" target="_blank" >Video Cost</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbth">Bachelor Programs</a>
+    <div class="dropdown-center">
+    <a href="IT.html">Information Technology<i style="color:blue">Since 2003</i></a>
+    <a href="CS.html">Computer Science<i style="color:blue">Since 2003</i></a>
+    <a href="ETC.html" >Electionincs and Telecommunication<i style="color:blue">Since 2003</i></a>
+    <a href="GDM.html" >Graphic Design and Multimedia<i style="color:red">New 2025</i></a>
+    <a href="BMIT.html">Business Management Information Technology<i style="color:red">New 2025</i></a>
+    <a href="NECS.html" >Network Engineering and Cyber Security<i style="color:red">New 2025</i></a>
+    <a href="DSAI.html" >Data Science and Artifical Intelligence<i style="color:red">New 2025</i></a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbth">Computer Lab</a>
+    <div class="dropdown-center">
+    <a href="Lab1.html" >Multimedia Lab</a>
+    <a href="Lab2.html" >E-Learning Lab</a>
+    <a href="Lab3.html" >Networking Lab</a>
+    <a href="Lab4.html" >IT-Center Lab</a>
+    </div>
+  </li>
+ </ul>
+  <p>ស្វាគមន៍មកកាន់មហាវិទ្យាល័យវិទ្យាសាស្ត្រ និងបច្ចេកវិទ្យានៃសាកលវិទ្យាល័យកម្ពុជា។ សម្រាប់ប្អូនៗសិស្សានុសិស្ស ដែលមានបំណងចង់បន្តការសិក្សាថ្នាក់បរិញ្ញាបត្ររង និងថ្នាក់បរិញ្ញាបត្រ។ សូមចុះឈ្មោះជាមួយយើងឥឡូវនេះ ឬអាចអញ្ជើញមកកាន់សាកលវិទ្យាល័យផ្ទាល់ក៏បាន។</p>
+ <p>Welcome to College of Science and Technology of The University of Cambodia. For everyone who wishes to pursue for any AA and BA degrees of the study programs, please register now or visit the campus of The University of Cambodia.</p>
+ <p style="text-align:center"><strong>Studying Activities in Cost </strong></p>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/a.jpg">
+     <img src="image/a.jpg" alt="image" width="373px" height="250px">
+   </a>
+   <div class="desc">Web Development-HTML CSS</div>
+  </div>
+ </div>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/b.jpg">
+     <img src="image/b.jpg" alt="image" width="373px" height="250px">
+  </a>
+   <div class="desc">Studying Multimedia Lab</div>
+  </div>
+ </div>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/c.jpg">
+     <img src="image/c.jpg" alt="image" width="373px" height="250px">
+   </a>
+   <div class="desc">Studying IT-Center Lab</div>
+  </div>
+ </div>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/d.jpg">
+     <img src="image/d.jpg" alt="Mountains" width="373px" height="250px">
+   </a>
+   <div class="desc">Graduation 2025</div>
+  </div>
+ </div>
+<div class="container">
+ <span onclick="this.parentElement.style.display='none'"class="closebtn">&times;</span>
+ <img id="expandedImg" style="width:100%">
+ <div id="imgtex"></div>
+</div>
+<h2 style="color:white;background-color:darkblue;"><marquee direction="left" scrollamount="20"><img src="image/cost.jpg" alt="image" style="width:100px;height:80px;">ស្វាគមន៍! IT Expert College Science and Technology</marquee></h2>
+ 
+<p style="text-align:center"><strong>Computer Lab College in Cost</strong></p>
+  <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/e.jpg">
+     <img src="image/e.jpg" alt="image" width="373px" height="250px">
+   </a>
+   <div class="desc">Multimedia Lab</div>
+  </div>
+</div>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/f.jpg">
+     <img src="image/f.jpg" alt="image" width="373px" height="250px">
+   </a>
+   <div class="desc">Networking Lab</div>
+  </div>
+</div>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/g.jpg">
+     <img src="image/g.jpg" alt="image" width="373px" height="250px">
+   </a>
+   <div class="desc">IT-Center Lab</div>
+  </div>
+</div>
+ <div class="responsive">
+  <div class="gallery">
+   <a target="_blank" href="image/h.jpg">
+     <img src="image/h.jpg" alt="image" width="373px" height="250px">
+   </a>
+   <div class="desc">IT-Center Update</div>
+  </div>
+</div>
+<div class="container">
+ <span onclick="this.parentElement.style.display='none'"class="closebtn">&times;</span>
+ <img id="expandedImg" style="width:100%">
+ <div id="imgtex"></div>
+</div>
+</body>
+<footer style="text-align:center;color:white;background-color:darkblue;"><img src="image/uc.png" alt="image" style="width:30px;height:30px;">Copyright © University of Cambodia</footer>
+</html>
